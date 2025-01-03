@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio to Text</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Demetrio Reyes <span>CodeDev</span></h1>
+    </header>
+    <div class="container">
+        <div class="header">
+            <h1>Audio To Text</h1>
+        </div>
+        <input type="file" id="audioFile" accept="audio/*">
+        <button onclick="uploadAudio()">Cargar Audio</button>
+        <div class="grid-container">
+            <div id="resultEnglish" class="grid-item">Traduccion en inglés...</div>
+            <div id="resultSpanish" class="grid-item">Traduccion en español...</div>
+        </div>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+    <footer class="footer">
+        <p>Desarrollo Demetrio Reyes @DemoDev</p>
+    </footer>
+</body>
+</html>
